@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Interactive Student Motivation Game 📚</title>
+
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<div class="dark-toggle" id="darkToggle">🌙</div>
+
+<div class="card">
+
+<img 
+  src="https://images.unsplash.com/photo-1581091215367-59ab6c5d7e1d"
+  alt="AI Learning"
+  class="ai-img"
+/>
+
+<h1>
+Kya aaplog ko aaj <br>
+📚 padhne ka mann hai?
+</h1>
+
+<div class="buttons">
+    <button id="yesBtn">Yes ✅</button>
+    <button id="noBtn">No ❌</button>
+</div>
+
+<div class="message" id="counterText">NO button tried: 0 times 😄</div>
+<div class="message">📌 Aaj ki mehnat hi kal ka future banati hai</div>
+
+</div>
+
+<!-- 🤖 AI Chat Bubble -->
+<div class="chat-bubble" id="chatBubble">
+🤖 Hello Students! Ready to upgrade your future today? 🚀
+</div>
+
+<!-- Popup -->
+<div class="popup" id="popup">
+  <div class="popup-content">
+    <h2 id="popupText"></h2>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
